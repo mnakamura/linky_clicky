@@ -5,12 +5,12 @@ default:
     Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
-      base_url: https://soap.stanford.edu
+      base_url: https://soap-uat.stanford.edu
     Drupal\DrupalExtension\Extension:
       blackbox: ~
-      api_driver: 'drush' 
+      api_driver: 'drush'
       drush:
-        alias: 'sse.jumpstart-soap'
+        alias: 'uat.jumpstart-soap'
       region_map:
         # Open Framework regions
         Admin Shortcuts: "#admin-shortcuts"
