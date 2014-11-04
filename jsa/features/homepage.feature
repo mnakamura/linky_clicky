@@ -65,3 +65,7 @@ Feature: Homepage
     | Subscribe                           | Footer                |
     | Staff                               | Footer                |
     | Campus Map                          | Footer                |
+    
+    Scenario: Site Title
+     Given I am on the homepage
+     Then I should see the link "Jumpstart Academic" in the "Site Name" region
