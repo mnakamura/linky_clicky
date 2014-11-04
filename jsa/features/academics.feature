@@ -19,3 +19,9 @@ Feature: Academics
   Scenario: Existence of block on Graduate Students page
    Given I am on "people/students"
    Then I should see "Search students by name" in the "First sidebar" region
+   
+  Scenario: Content on Academics page
+   Given I am on "academics/academics-overview"
+   Then I should see the heading "Academics Overview" 
+   And I should see the link "Learn more about the undergraduate program" in the "Content Body" region
+   And I should see the link "Learn more about the graduate programs" in the "Content Body" region
