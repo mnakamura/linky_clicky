@@ -34,3 +34,15 @@ Feature: Academics
    And I should see the link "Learn more about honors" in the "Content Body" region
    And I should see the link "Learn more about coterming" in the "Content Body" region
    And I should see the link "Learn more about how to declare" in the "Content Body" region
+   
+  Scenario: Sidebar on Undergraduate Program page
+   Given I am on "academics/undergraduate-program"
+   Then I should see "Major" in the "First sidebar" region
+   And I should see "Minor" in the "First sidebar" region
+   And I should see "Honors" in the "First sidebar" region
+   And I should see "Coterminal Masters" in the "First sidebar" region
+   And I should see "How to Declare" in the "First sidebar" region
+   And I should see "Preparing to Graduate" in the "First sidebar" region
+   And I should see "Peer Advisors" in the "First sidebar" region
+   And I should see "Forms" in the "First sidebar" region
+   And I should see "Resources" in the "First sidebar" region
