@@ -24,3 +24,5 @@ Feature: Events
     When I select "Lecture" from "Filter by type"
     And I press the "Go" button
     Then I should see "Currently, no future events are scheduled" in the "Content Body" region
+    
+    
