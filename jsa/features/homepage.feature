@@ -64,6 +64,15 @@ Feature: Homepage
     | Recent News                         | Footer                |
     | Subscribe                           | Footer                |
     | Staff                               | Footer                |
+    | Facebook                            | Footer                |
+    | Twitter                               | Footer                |
+    | GooglePlus                              | Footer                |
+    | LinkedIn                             | Footer                |
+    | YouTube                               | Footer                |
+    | Vimeo                               | Footer                |
+    | Tumblr                               | Footer                |
+    | Pinterest                               | Footer                |
+    | Flickr                               | Footer                |
     | Campus Map                          | Footer                |
     
     Scenario: Site Title
