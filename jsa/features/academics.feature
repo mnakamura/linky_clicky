@@ -25,3 +25,12 @@ Feature: Academics
    Then I should see the heading "Academics Overview" 
    And I should see the link "Learn more about the undergraduate program" in the "Content Body" region
    And I should see the link "Learn more about the graduate programs" in the "Content Body" region
+   
+  Scenario: Content on Undergraduate Program page
+   Given I am on "academics/undergraduate-program"
+   Then I should see the heading "Undergraduate Program"
+   And I should see the link "Learn more about the undergraduate major" in the "Content Body" region
+   And I should see the link "Learn more about the undergraduate minor" in the "Content Body" region
+   And I should see the link "Learn more about honors" in the "Content Body" region
+   And I should see the link "Learn more about coterming" in the "Content Body" region
+   And I should see the link "Learn more about how to declare" in the "Content Body" region
