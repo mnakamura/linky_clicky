@@ -5,12 +5,12 @@ default:
     Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
-      base_url: https://adminguide.stanford.edu
+      base_url: https://adminguide-uat.stanford.edu
     Drupal\DrupalExtension\Extension:
       blackbox: ~
-      api_driver: 'drush' 
+      api_driver: 'drush'
       drush:
-        alias: 'sse.adminguide'
+        alias: 'uat.ds_adminguide'
       region_map:
         # Open Framework regions
         Admin Shortcuts: "#admin-shortcuts"
